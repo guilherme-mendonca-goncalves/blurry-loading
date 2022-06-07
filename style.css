@@ -7,10 +7,25 @@
 body {
   align-items: center;
   display: flex;
-  flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
   height: 100vh;
   justify-content: center;
   margin: 0;
   overflow: hidden;
+}
+
+.bg {
+  background: url('https://images.pexels.com/photos/11710126/pexels-photo-11710126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text{
+  font-size: 50px;
+  color: #fff;
 }
